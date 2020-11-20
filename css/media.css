@@ -1,0 +1,197 @@
+/************************** media *********************/
+@media(max-width: 991px) and (min-width: 768px){
+
+    .navbar-default .navbar-nav>li>a{
+        padding-left: 4px;
+        font-size: 12px
+    }
+
+    
+
+}
+/***********************************************************/
+@media(max-width: 1199px) and (min-width: 768px){
+
+    .top-header-2 ul{text-align: center}
+
+}
+/*******************************************************************/
+@media(max-width: 1199px){
+    .top-header-2 .logo {
+        text-align: center;
+        margin-bottom: 30px
+    }
+}
+/*********************************************************************/
+@media(max-width: 991px) {
+
+    .top-header h3 {
+        margin: 10px auto 0;
+        float: none;
+        text-align: center
+    }
+    .top-header ul {
+        text-align: center;
+        float: none;
+        margin: 10px auto 0;
+        width: 170px;
+    }
+    .top-header ul li a {
+        border: none
+    }
+    .top-header-2 .logo {
+        text-align: center;
+        margin-bottom: 30px
+    }
+
+    footer .bottom-footer .copyrights p{
+        text-align: center
+    }
+    footer .bottom-footer .social-links ul{
+        text-align: center;
+        float: none;
+        margin: 15px auto 0;
+        width: 300px;
+    }
+    .top-header-2 ul li{
+        padding: 0 30px
+    }
+}
+/*************************************************/
+@media(max-width: 767px){
+
+    .top-header-2 .some-links {
+        margin: auto;
+        width: 100%
+    }
+    .top-header-2 ul {
+        margin: auto;
+        width: 215px;
+    }
+
+    .top-header-2 ul li:nth-child(2) {
+        border: none
+    }
+    
+    .top-header-2 ul li {
+        width: 100%;
+        float: none;
+        margin: 10px auto;
+        padding-left: 30px;
+        padding-right: 5px
+    }
+
+    .top-header-2 ul li {
+        width: 100%;
+        float: none;
+        margin: 10px auto;
+        padding-left: 30px;
+        padding-right: 5px
+    }
+
+    .top-header-2 ul li div:first-child i{
+        font-size: 18px;
+        margin-top: 18px
+    }
+    .top-header-2 ul li>div:last-child span:first-child{
+        font-size: 13px;
+        margin-top: 8px
+    }
+    .top-header-2 ul li>div:last-child span:last-child{
+        font-size: 13px;
+        margin-top: 5px
+    }
+    /*****************************/
+
+    .navbar-default .navbar-nav>li>a:hover{
+        padding-left: 25px
+    }
+    .navbar-default .navbar-nav>li>a:hover:before {
+    display: none
+   }
+
+   .contact .title h3{
+        font-size: 20px
+    }
+}
+/*********************************************************************/
+@media(max-width: 490px){
+
+
+    .bx-wrapper .content{
+        display: none;
+    }
+    
+    .myslider h5{
+  display: block
+}
+  .about .accord > div h3{
+    font-size: 13px
+  }
+   
+   .about .mytitle h3{
+    
+     font-size: 15px
+  }
+
+   .title h3{
+
+    font-size: 15px
+  }
+
+
+}
+
+/*******************************************************************/
+@media(max-width: 350px){
+
+
+
+    .search-form .form-inline .form-group {
+    width: 75%;
+    float: left;
+}
+
+.search-form a{
+    width: 25%;
+    float: left;
+}
+ .services .text h4{
+    font-size: 16px
+}
+
+   .title h3{
+   font-size: 17px
+
+}
+
+  .contact .appointment h4 , .contact .Q-contact h4{
+    font-size: 16px
+  }
+
+footer .top-footer .foot-info h4 , footer .top-footer .foot-links h4 , 
+footer .top-footer .foot-contact h4 , footer .top-footer .foot-appointment h4{
+
+    font-size: 16px
+   }
+
+
+}
+/********************************************************************/
+@media(max-width: 215px){
+    .top-header ul{
+        width: 135px
+    }
+    .top-header ul li a{
+        padding: 12px
+    }
+
+    
+}
+
+
+
+
+
+
+

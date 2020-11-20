@@ -1,0 +1,84 @@
+/* css document */
+
+@charset 'utf-8';
+*,
+*:after,
+*:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+
+html,
+body {
+    direction: ltr
+}
+
+body {
+    position: relative;
+    font-family: arial;
+    /*'Lato', sans-serif;*/
+    font-size: 16px;
+    min-height: 50px
+}
+
+a,
+button,
+li,
+i,
+h1,
+h2,
+h3,
+h4,
+h5,
+.navbar-default {
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out
+}
+
+a:hover,
+a:focus {
+    text-decoration: none
+}
+
+.bord-rad {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%
+}
+
+.transition {
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out
+}
+
+.bx-shadow {
+    box-shadow: 0 0 15px rgba(2, 2, 2, .2);
+    -webkit-box-shadow: 0 0 15px rgba(2, 2, 2, .2);
+    -moz-box-shadow: 0 0 15px rgba(2, 2, 2, .2);
+    -o-box-shadow: 0 0 15px rgba(2, 2, 2, .2);
+    -ms-box-shadow: 0 0 15px rgba(2, 2, 2, .2)
+}
+
+.size-cover {
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover
+}
+
+.top {
+    padding: 50px 0
+}
